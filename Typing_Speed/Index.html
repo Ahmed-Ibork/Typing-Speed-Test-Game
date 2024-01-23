@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="logo">
+                <span></span>
+            </span>
+            <label>
+                <input type="checkbox" class="switch-checkbox">
+                <div class="toggle-switch"></div>
+            </label>
+        </header>
+        <section>
+            <div class="Levels">
+                <div>Easy</div>
+                <div>Normal</div>
+                <div>Hard</div>
+            </div>
+            <button>start</button>
+            <div class="word"></div>
+            <div class="form">
+                <input type="text" placeholder="type here">
+            </div>
+            <div class="words">
+                
+            </div>
+            <div class="timeScore">
+                <div class="time">
+                    Time Left : <span>0</span> seconde
+                </div>
+                <div class="score">
+                    score : <span class="Score">0</span>From : <span class="total">30</span>
+                </div>
+            </div>
+            <audio id="success" src="../success.mp3" preload="auto"></audio>  
+            <audio id="gameOver" src="../game-over-31-179699.mp3" preload="auto"></audio>  
+        </section>
+    </div>
+</body>
+<script src="Main.js"></script>
+</html>
